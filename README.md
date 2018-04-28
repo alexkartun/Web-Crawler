@@ -8,7 +8,7 @@ On your working directory clone the repository from the url.
 
 Now run the container type in terminal of cloned directory: 
 
-sudo docker run -d -p 8118:8118 -p 9050:9050 rdsubhas/tor-privoxy-alpine
+#sudo docker run -d -p 8118:8118 -p 9050:9050 rdsubhas/tor-privoxy-alpine
 
 # Web-Crawler
 Simple web crawler.
@@ -21,18 +21,20 @@ Go to your working directory and clone the repository from the url.
 
 Now for creating the container type:
 
-sudo docker build -t crawler-service .
+#sudo docker build -t crawler-service .
 
 Now run the container on background:
 
-sudo docker run -d crawler-service
+#sudo docker run -d crawler-service
 
 See logs of container you can type:
 
-sudo docker logs <container-name>
+#sudo docker logs <container-name>
 
-Close the container type: sudo docker stop <container-name>
+Close the container type: 
+
+#sudo docker stop <container-name>
 
 To export the database type:
 
-sudo docker export <container-id> > <container-id>-backup.tar
+#sudo docker export <container-id> > <container-id>-backup.tar
