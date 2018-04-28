@@ -1,5 +1,7 @@
 # Tor proxy
 
+Prefered to run on linux platform.
+
 url-to-tor-github: https://github.com/rdsubhas/docker-tor-privoxy-alpine.git
 
 How to run tor proxy?
@@ -12,6 +14,8 @@ Now run the container type in terminal of cloned directory:
 
 # Web-Crawler
 Simple web crawler.
+
+Prefered to run on linux platform.
 
 url-to-crawler-github: https://github.com/kartuna/Web-Crawler.git
 
