@@ -29,12 +29,12 @@ Now run the container on background:
 
 See logs of container you can type:
 
-# sudo docker logs <container-name>
+# sudo docker logs "container-name"
 
 Close the container type: 
 
-# sudo docker stop <container-name>
+# sudo docker stop "container-name"
 
 To export the database type:
 
-# sudo docker export <container-id> > <container-id>-backup.tar
+# sudo docker export "container-id" > "container-id"-backup.tar
