@@ -1,0 +1,6 @@
+requests
+schedule
+arrow
+lxml
+tinydb
+cssselect
