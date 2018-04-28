@@ -1,20 +1,19 @@
 # Tor proxy
 
 url-to-tor-github: https://github.com/rdsubhas/docker-tor-privoxy-alpine.git
-How to run tor proxy on container?
+How to run tor proxy?
 
 On your working directory clone the repository from the url.
 
 Now run the container type in terminal of cloned directory: 
-linux platform: sudo docker run -d -p 8118:8118 -p 9050:9050 rdsubhas/tor-privoxy-alpine
-win platform: docker run -d -p 8118:8118 -p 9050:9050 rdsubhas/tor-privoxy-alpine
+sudo docker run -d -p 8118:8118 -p 9050:9050 rdsubhas/tor-privoxy-alpine
 
 # Web-Crawler
 Simple web crawler.
 
 url-to-crawler-github: https://github.com/kartuna/Web-Crawler.git
 
-How to run the crawler service on container?
+How to run the crawler service?
 
 Go to your working directory and clone the repository from the url.
 
